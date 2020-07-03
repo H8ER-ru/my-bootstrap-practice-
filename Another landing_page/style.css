@@ -1,0 +1,87 @@
+.jumbotron{
+    background: url(http://freenaturestock.s3.amazonaws.com/166.jpg);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 800px;
+}
+.logo{
+    width: 75px;
+}
+.featured{
+    color: #fff;
+}
+ .featured h1{
+    padding-top:60px;
+}
+.btn-default{
+    font-weight: 700;
+    color: #fff;
+    background-color: rgba(145, 82, 58, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    transition: background-color .2s linear;
+}
+.btn-default:hover{
+    background-color: rgb(145, 82, 58);
+    color: #fff;
+}
+.trial{
+    text-align: center;
+    padding: 20px 0 40px;
+    color: #000;
+}
+.trial-btn{
+    width: 200px;
+    margin: 20px;
+}
+.footer{
+    background-color: #eee;
+    font-size: 15px;
+    padding: 10px 0;
+}
+@media (min-width: 769px) and (max-width:1440px){
+    .jumbotron{
+        height: 600px
+    }
+}
+@media (min-width: 480px) and (max-width: 768px){
+    .jumbotron{
+        height: 410px;
+        margin: 0;
+    }
+    .logo{
+        width: 50px;
+    }
+    .featured h1{
+        padding-top: 30px;
+    }
+    .sub_title{
+        font-size: 17px;
+    }
+    .featured{
+        text-align: center
+    }
+}
+@media (max-width: 480px) {
+    .jumbotron{
+        height: 410px;
+        margin: 0;
+    }
+    .logo{
+        width: 30px;
+    }
+    .featured h1{
+        padding-top: 10px;
+        font-size: 30px
+    }
+    .sub_title, .btn-default{
+        font-size: 13px;
+    }
+    .featured{
+        text-align: center
+    }
+    .trial-img{
+        height: 35px;
+    }
+}
